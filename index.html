@@ -9,13 +9,19 @@
 </head>
 
 <body>
-    <h1>Generate a <br><span>random password</span></h1>
+    <h1>Generate two <br><span>random passwords</span></h1>
     <p>Never use an insecure password again.</p>
     <button onclick="generate()">Generate passwords</button>
     
     <div id="pw-fields">
-        <div id="pw1" class="password"></div>
-        <div id="pw2" class="password"></div>
+        <div>
+            <div class="pw-heading">First password</div>
+            <div id="pw1" class="password"></div>
+        </div>
+        <div>
+            <div class="pw-heading">Second password</div>
+            <div id="pw2" class="password"></div>
+        </div>
     </div>
 </body>
 

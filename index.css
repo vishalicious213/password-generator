@@ -42,7 +42,19 @@ button:hover {
 
 #pw-fields {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 4rem;
+    max-width: 500px;
+}
+
+.pw-heading {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-bottom: .25rem;
+    color: #D5D4D8;
 }
 
 .password {
@@ -54,5 +66,5 @@ button:hover {
     font-size: 1rem;
     padding: .5rem 1rem;
     border-radius: .5rem;
-    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
