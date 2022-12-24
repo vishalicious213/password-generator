@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
 
 body {
-    background: #1F2937;
+    background-color: #1F2937;
     color: white;
 }
 
@@ -19,4 +19,13 @@ p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
+}
+
+button {
+    color: white;
+    background-color: #4ADF86;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    padding: .5rem 1rem;
 }
