@@ -68,3 +68,11 @@ button:hover {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
+
+#note {
+    font-size: .8rem;
+    font-style: italic;
+    position: fixed;
+    bottom: 1rem;
+    color: #D5D4D8;
+}
