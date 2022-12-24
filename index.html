@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
 </head>
 
 <body>
     <h1>Generate a <br><span>random password</span></h1>
     <p>Never use an insecure password again.</p>
-    <button>Generate passwords</button>
-
+    <button onclick="generate()">Generate passwords</button>
+    
     <div id="pw-fields">
-        <div class="password"></div>
-        <div class="password"></div>
+        <div id="pw1" class="password"></div>
+        <div id="pw2" class="password"></div>
     </div>
 </body>
+
+    <script src="index.js"></script>
 </html>
