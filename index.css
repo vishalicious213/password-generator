@@ -45,7 +45,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 4rem;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .pw-heading {
