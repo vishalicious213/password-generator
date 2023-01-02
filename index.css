@@ -24,6 +24,13 @@ p {
     color: #D5D4D8;
 }
 
+#options {
+    outline: 1px solid #a6eecc;
+    border-radius: .5rem;
+    padding: .25rem 0 .5rem 1rem;
+    max-width: 25rem;
+}
+
 label {
     font-family: 'Inter', sans-serif;
     font-size: .9rem;
@@ -38,7 +45,8 @@ hr {
     border-right: none;
     border-left: none;
     margin-top: 2rem;
-    width: 90%;
+    margin-left: 0;
+    max-width: 26rem;
 }
 
 button {
