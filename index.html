@@ -13,7 +13,7 @@
     <p>Never use an insecure password again.</p>
 
     <section id="pw-length">
-        <p id="pw-length-display">Password length: <span id="pw-length-num">16</span>characters</p>
+        <p id="pw-length-display">Password length: <span id="pw-length-num">16</span>characters (6-32)</p>
         <input type="range" id="length" name="length" min="6" max="32" value="16">
     </section>
 
@@ -21,21 +21,21 @@
         <section class="options-row">
             <label for="uppercase">
                 <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
-                Uppercase
+                Uppercase <span class="charset-example">(ABC)</span>
             </label>
             <label for="lowercase">
                 <input type="checkbox" id="lowercase" name="lowercase" value="lowercase">
-                Lowercase
+                Lowercase <span class="charset-example">(abc)</span>
             </label>
         </section>
         <section class="options-row">
             <label for="numbers">
                 <input type="checkbox" id="numbers" name="numbers" value="numbers">
-                Numbers
+                Numbers <span class="charset-example">(123)</span>
             </label>
             <label for="symbols">
                 <input type="checkbox" id="symbols" name="symbols" value="symbols">
-                Symbols
+                Symbols <span class="charset-example">(!@#)</span>
             </label>
         </section>
     </section>
