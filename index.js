@@ -19,40 +19,32 @@ let pw2 = document.getElementById("pw2")
 // pick character sets to include in full set of characters to generate passwords
 options.addEventListener("change", () => {
     if (checkUppercase.checked) {
-        console.log("uppercase")
         characterSet.push("uppercase")
     } else {
-        console.log("no uppercase")
         while (characterSet.includes("uppercase")) {
             characterSet.pop("uppercase")
         }
     }
     
     if (checkLowercase.checked) {
-        console.log("lowercase")
         characterSet.push("lowercase")
     } else {
-        console.log("no lowercase")
         while (characterSet.includes("lowercase")) {
             characterSet.pop("lowercase")
         }
     }
 
     if (checkNumbers.checked) {
-        console.log("numbers")
         characterSet.push("numbers")
     } else {
-        console.log("no numbers")
         while (characterSet.includes("numbers")) {
             characterSet.pop("numbers")
         }
     }
 
     if (checkSymbols.checked) {
-        console.log("symbols")
         characterSet.push("symbols")
     } else {
-        console.log("no symbols")
         while (characterSet.includes("symbols")) {
             characterSet.pop("symbols")
         }
@@ -61,12 +53,12 @@ options.addEventListener("change", () => {
     generateCharacterSet()
 })
 
+// assemble characters from selected character subsets
 function generateCharacterSet() {
-    console.log(characterSet)
+    // empty existing characters array
     while (characters.length > 0) {
         characters.pop()
     }
-    console.log("starting", characters)
     
     if (characterSet.includes("uppercase")) {
         characters = characters.concat(chars_upper)
@@ -83,8 +75,6 @@ function generateCharacterSet() {
     if (characterSet.includes("symbols")) {
         characters = characters.concat(chars_symbols)
     }
-
-    console.log("ending", characters)
 }
 
 function generatePasswords() {
