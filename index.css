@@ -46,7 +46,7 @@ label {
 
 #pw-length-display {
     font-size: .9rem;
-    margin-bottom: 0;
+    margin: 0 0 .5rem 1rem;
 }
 
 #pw-length-num {
