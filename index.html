@@ -12,16 +12,28 @@
     <h1>Generate two <br><span>random passwords</span></h1>
     <p>Never use an insecure password again.</p>
 
-    <div id="options">
-        <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
-        <label for="uppercase">Uppercase</label>
-        <input type="checkbox" id="lowercase" name="lowercase" value="lowercase">
-        <label for="lowercase">Lowercase</label>
-        <input type="checkbox" id="numbers" name="numbers" value="numbers">
-        <label for="numbers">Numbers</label>
-        <input type="checkbox" id="symbols" name="symbols" value="symbols">
-        <label for="symbols">Symbols</label>
-    </div>
+    <section id="options">
+        <section class="options-row">
+            <label for="uppercase">
+                <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
+                Uppercase
+            </label>
+            <label for="lowercase">
+                <input type="checkbox" id="lowercase" name="lowercase" value="lowercase">
+                Lowercase
+            </label>
+        </section>
+        <section class="options-row">
+            <label for="numbers">
+                <input type="checkbox" id="numbers" name="numbers" value="numbers">
+                Numbers
+            </label>
+            <label for="symbols">
+                <input type="checkbox" id="symbols" name="symbols" value="symbols">
+                Symbols
+            </label>
+        </section>
+    </section>
 
     <button onclick="generate()">Generate passwords</button>
     

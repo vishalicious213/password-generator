@@ -24,6 +24,13 @@ p {
     color: #D5D4D8;
 }
 
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+    display: inline-block;
+    min-width: 30%;
+}
+
 button {
     color: white;
     background-color: #4ADF86;
