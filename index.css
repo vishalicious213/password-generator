@@ -58,10 +58,12 @@ button {
     padding: .5rem 1rem;
     border-radius: .5rem;
     margin-top: 1.5rem;
+    border: 1px solid #4ADF86;
 }
 
 button:hover {
     background-color: #a6eecc;
+    border: 1px solid #a6eecc;
     color: black;
 }
 
@@ -69,7 +71,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 3rem;
     max-width: 400px;
 }
 
@@ -97,7 +99,5 @@ button:hover {
 #note {
     font-size: .8rem;
     font-style: italic;
-    position: fixed;
-    bottom: 1rem;
     color: #D5D4D8;
 }
