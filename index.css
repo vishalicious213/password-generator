@@ -28,7 +28,17 @@ label {
     font-family: 'Inter', sans-serif;
     font-size: .9rem;
     display: inline-block;
-    min-width: 30%;
+    width: 10rem;
+    margin-top: .5rem;
+}
+
+hr {
+    border-top: 1px solid #273549;
+    border-bottom: 1px solid #273549;
+    border-right: none;
+    border-left: none;
+    margin-top: 2rem;
+    width: 90%;
 }
 
 button {
@@ -39,7 +49,7 @@ button {
     font-size: 1rem;
     padding: .5rem 1rem;
     border-radius: .5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 button:hover {
