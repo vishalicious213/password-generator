@@ -13,6 +13,13 @@ const checkSymbols = document.getElementById("symbols")
 
 let pw1 = document.getElementById("pw1")
 let pw2 = document.getElementById("pw2")
+let pwLengthNum = document.getElementById("pw-length-num")
+const length = document.getElementById("length")
+
+// length of password from 6-32 characters (for slider & pw generation)
+length.addEventListener("change", () => {
+    pwLengthNum.textContent = length.value
+})
 
 // pick character sets to include in full set of characters to generate passwords
 options.addEventListener("change", () => {
@@ -88,7 +95,7 @@ function generatePasswords() {
         generateCharacterSet()
     }
 
-    for (let i=0; i < 15; i++) {
+    for (let i=0; i < length.value; i++) {
         index = Math.floor(Math.random() * characters.length)
         password += characters[index]
     }
