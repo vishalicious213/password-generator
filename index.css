@@ -16,7 +16,7 @@ span {
     color: #4ADF86;
 }
 
-p {
+p, li {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
@@ -100,4 +100,5 @@ button:hover {
     font-size: .8rem;
     font-style: italic;
     color: #D5D4D8;
+    margin: 0 0 .25rem 1rem;
 }

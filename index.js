@@ -79,6 +79,15 @@ function generatePasswords() {
     let index = 0
     let password = ""
 
+    // if character sets are unchecked, check lowercase
+    if (characterSet.length === 0) {
+        characterSet.push("lowercase")
+        characterSet.push("numbers")
+        checkLowercase.checked = true
+        checkNumbers.checked = true
+        generateCharacterSet()
+    }
+
     for (let i=0; i < 15; i++) {
         index = Math.floor(Math.random() * characters.length)
         password += characters[index]
