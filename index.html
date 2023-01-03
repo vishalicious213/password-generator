@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div id="test"></div>
     <h1>Generate two <br><span>random passwords</span></h1>
     <p>Never use an insecure password again.</p>
 
@@ -42,7 +43,7 @@
 
     <hr>
 
-    <button onclick="generate()">Generate passwords</button>
+    <button onclick="generate()"><span id="button-emoji">&#9889;</span>Generate passwords</button>
     
     <div id="pw-fields">
         <div>
@@ -55,7 +56,7 @@
         </div>
     </div>
 
-    <li id="note">Passwords are 15 characters long and can include letters, numbers & symbols.</li>
+    <li id="note">Passwords are between 6-32 characters long and can include letters, numbers & symbols.</li>
     <li id="note">If no character sets are selected, lowercase and numbers will be used.</li>
 </body>
 

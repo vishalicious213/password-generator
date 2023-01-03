@@ -5,6 +5,21 @@ body {
     color: white;
 }
 
+#test {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
 h1 {
     font-family: 'Karla', sans-serif;
     font-weight: 800;
@@ -86,6 +101,10 @@ button:hover {
     background-color: #a6eecc;
     border: 1px solid #a6eecc;
     color: black;
+}
+
+#button-emoji {
+    margin-right: .5rem;
 }
 
 #pw-fields {
