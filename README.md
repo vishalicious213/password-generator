@@ -7,6 +7,16 @@ I completed that task and then added on the following:
 - User can use slider to set the password length between 6-32 characters
 - User can specify whether to include uppercase letters, lowercase letters, numbers and symbols
 
+Original design from Scrimba:
+
+![]()
+
+My design:
+
+![](https://vish213-portfolio-v3.netlify.app/static/media/pw-generator.0d2acb60.jpg)
+
+Project deployed at: https://vish213-pwgen.netlify.app/
+
 ## JavaScript concepts
 
 - variables
@@ -25,5 +35,3 @@ I completed that task and then added on the following:
 - element.addEventListener()
 - element.checked
 - element.textContent
-
-Project deployed at: https://vish213-pwgen.netlify.app/
