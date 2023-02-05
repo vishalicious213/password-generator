@@ -1,8 +1,11 @@
 # PASSWORD GENERATOR
 
-Generates two random passwords
-- User can specify whether to include uppercase letters, lowercase letters, numbers and symbols
+This was a Scrimba project that I added on to with customizations. The original specifications called for us to build an application that generates two random passwords when the user clicks a button. Each password should be 15 characters long.
+
+I completed that task and then added on the following:
+
 - User can use slider to set the password length between 6-32 characters
+- User can specify whether to include uppercase letters, lowercase letters, numbers and symbols
 
 ## JavaScript concepts
 
