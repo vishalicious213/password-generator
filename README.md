@@ -9,7 +9,7 @@ I completed that task and then added on the following:
 
 Original design from Scrimba:
 
-![]()
+![](https://github.com/vishalicious213/password-generator/blob/main/scrimba-design.jpg?raw=true)
 
 My design:
 
