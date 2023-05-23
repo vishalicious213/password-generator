@@ -1,6 +1,6 @@
 # PASSWORD GENERATOR
 
-This was a Scrimba project from Module 3 (Making Websites Interactive) of the [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added on to with customizations. The original specifications called for us to build an application that generates two random passwords when the user clicks a button. Each password should be 15 characters long.
+This was a solo project from Module 3 (Making Websites Interactive) of Scrimba's [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added on to with customizations. The original specifications called for us to build an application that generates two random passwords when the user clicks a button. Each password should be 15 characters long.
 
 I completed that task and then added on the following:
 
